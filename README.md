@@ -31,6 +31,9 @@ This file contains features derived from images of breast cancer tumors, with th
 - **Standard Scaling**: All features were scaled using StandardScaler to ensure that each feature contributes equally to the model.
 
 - **Handling Data Imbalance**: The dataset has an imbalance between benign and malignant cases. To address this, the focus was placed on models with better precision and recall rather than just accuracy.
+  
+  ![imbalance](https://github.com/user-attachments/assets/ea6756e6-8bd1-444c-b631-acb5bdd950fa)
+
 
 ## Evaluation Metrics
 
@@ -39,3 +42,24 @@ This file contains features derived from images of breast cancer tumors, with th
 - **Recall**
 
 Given the data imbalance, precision and recall were particularly emphasized to select the best model.
+
+## Usage
+
+The project is primarily aimed at data scientists and researchers interested in applying machine learning to healthcare. It can be used as a foundation for further research or as a diagnostic tool for medical professionals.
+
+## Results
+
+The models were evaluated based on precision, recall, and accuracy. Due to the imbalanced nature of the data, the models that offered better precision and recall were preferred. PCA allowed us to reduce the number of features to 10 without significant loss of performance, making the models more efficient.
+
+![performance](https://github.com/user-attachments/assets/c6440fa9-d373-4c45-8f86-ceac234784a5)
+
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+For any questions or comments, please contact:
+
+**Navya Sai** - [navyasai1401@gmail.com](mailto:navyasai1401@gmail.com)
