@@ -26,7 +26,7 @@ This file contains features derived from images of breast cancer tumors, with th
 
 ## Key Techniques
 
-- **Principal Component Analysis (PCA)**: Applied to reduce the feature size from 31 to 10, while maintaining similar model performance. This helps in reducing computational complexity and improving model interpretability.
+- **Principal Component Analysis (PCA)**: Applied to reduce the feature size from 31 to 8, while maintaining similar model performance. This helps in reducing computational complexity and improving model interpretability.
   
 - **Standard Scaling**: All features were scaled using StandardScaler to ensure that each feature contributes equally to the model.
 
