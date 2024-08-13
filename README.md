@@ -6,7 +6,12 @@ This project is designed to develop and evaluate various machine learning models
 
 ## Dataset
 
-- 
+The dataset used for this project is provided as a CSV file. Make sure the dataset is placed in the root directory of the project before running the models.
+
+- **File**: [`breast_cancer_data.csv`](breast_cancer_data.csv)
+
+This file contains features derived from images of breast cancer tumors, with the target variable indicating whether the tumor is benign or malignant.
+
 - **Dimensions**: 569 samples and 31 features.
 - The dataset contains various features derived from images of breast cancer tumors, such as mean radius, texture, perimeter, area, smoothness, etc.
 - The target variable indicates whether the tumor is benign or malignant.
